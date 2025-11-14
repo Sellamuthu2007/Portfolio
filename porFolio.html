@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sellamuthu R</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="nav1">        
+            <ul class="logo">
+                <li><a href="https://www.linkedin.com/in/sellamuthu-ramu-3b3390327 ">Sellamuthu R</a></li>
+                </ul>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Achievements">Achievements</a></li> 
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#certificate">Certificate</a></li>
+                </ul>
+      
+    </nav>
+    <section id="home" class="hero">         
+        <div class="intro">
+            <h3>Hi I'm Sellamuthu R</h3>
+            <h4>Aspiring Software Development Engineer</h4>
+            <p>I'm verymuch committed in doing FSD projects and participating in public speaking competition to enhance my communication and leadership qualitites. </p>
+        </div>
+        <!-- About page begins -->
+    </section>
+    <section id="About" class="about">
+        <div class="education" onclick="togglePage(this)">         
+           <h3>Education</h3>           
+        </div>
+        <div class= "skills" onclick="togglePage(this)">
+            <h3>Skills</h3>
+        </div>
+        <div class="intern" onclick="togglePage(this)">
+            <h3>Internships</h3>
+        </div>
+    </section>     
+</body>
+<script>
+    function togglePage(element){
+        const content = element.textContent.trim();
+        
+        if(content == "Education" || content == "Skills" || content == "Internships"){
+            element.textContent = "Enga ethuvum ella!";
+            element.style.backgroundColor = "lightblue";
+            element.style.color = "black";
+            element.style.transform = "scale(1.1)";
+
+        }
+    }
+</script>
+</html>
