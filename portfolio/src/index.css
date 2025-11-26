@@ -22,7 +22,7 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .hero{
-    background-image:url('./images/bg2.png');
+    background-image:url('portfolio\src\assets\bg2.png');
     padding-top: 100px; 
     height:100vh;
     align-items: center;
@@ -87,5 +87,8 @@ html{
     border:2px solid red;
     border-right-color: black;
     border-left-color:white;
+}
+section {
+  scroll-margin-top: 80px;
 }
 

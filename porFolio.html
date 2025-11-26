@@ -26,31 +26,39 @@
             <h4>Aspiring Software Development Engineer</h4>
             <p>I'm verymuch committed in doing FSD projects and participating in public speaking competition to enhance my communication and leadership qualitites. </p>
         </div>
-        <!-- About page begins -->
     </section>
-    <section id="About" class="about">
-        <div class="education" onclick="togglePage(this)">         
-           <h3>Education</h3>           
+    <!-- About page begins -->
+     <section class="about">
+         <div class="card">
+            <div class="edu-card">
+            <div class="front-edu">
+                <h3>Education</h3>
+            </div>
+            <div class="back-edu">
+                <p>School : 84.4%</p>
+                <p>Higher secondary : 96.7%</p>
+            </div>
         </div>
-        <div class= "skills" onclick="togglePage(this)">
-            <h3>Skills</h3>
+        <div class="skills-card">
+            <div class="front-skill">
+                <h3>Skills</h3>
+            </div>
+            <div class="back-skill">
+                <p>School : 84.4%</p>
+                <p>Higher secondary : 96.7%</p>
+            </div>
         </div>
-        <div class="intern" onclick="togglePage(this)">
-            <h3>Internships</h3>
-        </div>
-    </section>     
-</body>
-<script>
-    function togglePage(element){
-        const content = element.textContent.trim();
-        
-        if(content == "Education" || content == "Skills" || content == "Internships"){
-            element.textContent = "Enga ethuvum ella!";
-            element.style.backgroundColor = "lightblue";
-            element.style.color = "black";
-            element.style.transform = "scale(1.1)";
+        <div class="intern-card">
+            <div class="front-intern">
+                <h3>Internships</h3>
+            </div>
+            <div class="back-intern">
+                <p>School : 84.4%</p>
+                <p>Higher secondary : 96.7%</p>
+            </div>
 
-        }
-    }
-</script>
+        </div>
+         </div>
+     </section>
+    </body>
 </html>
