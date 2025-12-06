@@ -1,4 +1,19 @@
- 
+ *{
+     background: linear-gradient(
+        180deg,
+        #0f0a25,   /* top purple tint */
+        #0c1022,   /* center deep blue */
+        #0d1228    /* bottom navy */
+    ); 
+ }
+ img{
+    cursor : pointer;
+    
+ }
+ img:hover{
+    transform : scale(2);
+    transition : 0.3s ease;
+ }
 .nav1{
     background-color:black;
     color : white;
@@ -45,12 +60,7 @@
     width : 800px;
 }
 .homePage-top{ 
-    background: linear-gradient(
-        180deg,
-        #0f0a25,   /* top purple tint */
-        #0c1022,   /* center deep blue */
-        #0d1228    /* bottom navy */
-    );  
+      
     height : 100vh;  
     width : 100%;
     color: white;
@@ -58,12 +68,7 @@
     flex-direction : row;
 }
 .homePage-left{
-    background: linear-gradient(
-        180deg,
-        #0f0a25,   /* top purple tint */
-        #0c1022,   /* center deep blue */
-        #0d1228    /* bottom navy */
-    );  
+    
     background-color:white;
     font-family :'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left : 30px;

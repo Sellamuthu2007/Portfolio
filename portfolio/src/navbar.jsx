@@ -22,7 +22,7 @@ export default function Navbar(){
                         <li><a href="#home">Volunteering</a></li>
                         <li><a href="#home">Internships</a></li>
                         <li><a href="#home">Contact</a></li>
-                        <li><a href="#home">Resume</a></li>
+                        <li><a href="./RESUME.pdf">Resume</a></li>
                     </ul>
                 </div>
             </nav>
