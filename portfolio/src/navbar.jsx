@@ -16,8 +16,8 @@ export default function Navbar(){
                     <ul>
                         <li><a onClick={()=>navigate('/')}>Home</a></li>
                         <li><a onClick={()=>navigate('/projects')}>Projects</a></li>
-                        <li><a href="#home">Hackathons</a></li>
-                        <li><a href="#home">Achievements</a></li>
+                        <li><a onClick={()=>navigate('/hackathons')}>Achievements</a></li>
+                        <li><a href="#home">Education</a></li>
                         <li><a href="#home">Certificates</a></li>
                         <li><a href="#home">Volunteering</a></li>
                         <li><a href="#home">Internships</a></li>

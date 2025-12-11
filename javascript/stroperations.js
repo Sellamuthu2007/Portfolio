@@ -28,8 +28,8 @@ for(let i=0;i<=10;i++){
 
 //boolean
 
-// console.log(typeof(true + 10));
-// console.log(typeof(true + undefined));//error
+//console.log(typeof(true + 10));
+//console.log(typeof(true + undefined));//error
 //console.log(true + false);
 
 //Conversion
@@ -38,8 +38,8 @@ for(let i=0;i<=10;i++){
 
 // //Number()
 
-// console.log(10 + Number('10'));
-// console.log(10 - Number('abc'));//NaN= Not a Number
+//console.log(10 + Number('10'));
+//console.log(10 - Number('abc'));//NaN= Not a Number
 
 // //Boolean()
 

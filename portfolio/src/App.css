@@ -59,3 +59,13 @@
   transform: scale(1.05);
   box-shadow: 0 0 30px #00e7ff;
 }
+
+.hackathonPage .icons i{
+    font-size : 30px;
+}
+.achievements-hero{
+  color : white;
+  margin-top: 50px ;
+  margin-left: 600px;
+  
+}

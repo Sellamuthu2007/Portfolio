@@ -3,6 +3,7 @@ import Navbar from './navbar'
 import './index.css'
 import './App.css'
 import { motion } from 'framer-motion'
+import Footer from './footer'
 import person from './assets/person.png'
 
 
@@ -126,6 +127,7 @@ export default function Homepage(){
 
             </div>
             </div>
+            <Footer/>
         </div>
         
 

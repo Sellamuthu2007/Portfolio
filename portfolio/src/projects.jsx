@@ -1,6 +1,8 @@
 // Projects.jsx
 import React from "react";
 import { motion } from "framer-motion";
+import Footer from "./footer";
+import Navbar from './navbar'
 import "./App.css";
 
 const projectData = [
@@ -38,16 +40,11 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div className="projects-wrapper">
-      <motion.h1
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.2 }}
-        className="projects-title"
-      >
-        My Projects
-      </motion.h1>
-
+     
+    <>
+      <div>
+            <Navbar/>
+      </div>
       <div className="projects-grid">
         {projectData.map((proj, index) => (
           <motion.div
@@ -62,6 +59,7 @@ const Projects = () => {
               stiffness: 80,
             }}
             whileHover={{ scale: 1.05 }}
+            style = {{"padding" : "15px"}}
           >
             <h2>{proj.title}</h2>
             <p>{proj.description}</p>
@@ -71,8 +69,12 @@ const Projects = () => {
             >{proj.title} Repo</a>
           </motion.div>
         ))}
-      </div>
-    </div>
+      </div>  
+      <div style = {{"padding" : "20px"}}>
+        <Footer/>  
+      </div>   
+    </>
+   
   );
 };
 
