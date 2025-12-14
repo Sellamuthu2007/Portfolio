@@ -83,9 +83,9 @@ export default function Homepage(){
                                 target = "_blank"
                                 className="btn btn-primary">Resume</a>
                             </div>
-                            <div src="https://www.linkedin.com/in/sellamuthu-ramu-3b3390327"><i class="bi bi-linkedin"></i> LinkedIn</div>
-                            <div src="https://github.com/Sellamuthu2007"><i class="bi bi-github"></i> Github</div>
-                            <div  href="https://mail.google.com/mail/?view=cm&fs=1&to=krssellamuthu2007@gmail.com"><i class="bi bi-envelope"></i> Email</div>
+                            <div><a class="bi bi-linkedin" style={{"color":"white"}} href = "https://www.linkedin.com/in/sellamuthu-ramu-3b3390327"></a> LinkedIn</div>
+                            <div><a class="bi bi-github" style={{"color":"white"}} href="https://github.com/Sellamuthu2007"></a> Github</div>
+                            <div><a class="bi bi-envelope" style={{"color":"white"}} href="https://mail.google.com/mail/?view=cm&fs=1&to=krssellamuthu2007@gmail.com"></a> Email</div>
                         </motion.div>
                     </div>
                     <div className='homePage-right   rounded-circle'>

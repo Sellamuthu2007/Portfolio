@@ -22,7 +22,7 @@ export default function Educations(){
         },
         {
             "id" : 4,
-            "type" : "Diploma in Computer Education (DCA)",
+            "type" : "Diploma in Computer Application (DCA)",
             "name" : "SunTech Computer Center",
             "location" : "Ariyalur,TamilNadu",
             "Percentage" : "90.5%"
